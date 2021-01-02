@@ -1,0 +1,307 @@
+*{
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: arial ;
+	background-color: #f4f4f4;
+}
+
+h2{
+	text-align: center;
+	padding-top: 50px;
+
+}
+/*Bar Navigasi*/
+nav{
+	max-width: 2100px;
+	height: 90px;
+	background-color: salmon;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+form i{
+	background-color: white;
+	padding: 5px;
+	border: 1px solid black;
+	border-right: none;
+	box-sizing: border-box;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+}
+
+span.on{
+	font-family: 'anton', sans-serif;
+	font-size: 1.9em;
+	color: black;
+}
+
+span.mart{
+	font-family: 'pacifico', cursive;
+	font-size: 1.6em;
+	color: white;
+}
+
+.logo{
+	margin-left: 6%;
+}
+
+form{
+	width: 260px;
+	margin-right: 5%;
+	display: flex;
+}
+
+.search{
+	width: 100%;
+	border: 1px solid black;
+	border-left: none;
+	border-radius: 0;
+	outline: none;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+/*Akhir bar navigasi*/
+/*NavBar Bottom*/
+.container-setting{
+	width: 100%;
+	display: flex;
+	height: 60px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	z-index: 999;
+}
+
+.container-setting ul{
+	display: flex;
+	margin: 0;
+	justify-content: space-around;
+	align-items: center;
+	padding-right: 10px;
+	width: 500px;
+	height: 100%;
+	background-color: #f9f9f9;
+	box-shadow: 1px 1px 10px grey;
+}
+
+.container-setting ul li a{
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+  	flex-direction: column;
+
+}
+
+.container-setting a{
+	color: black;
+}
+
+.container-setting a:hover{
+	color: salmon;
+}
+
+.container-setting span{
+	padding-top: 5px;
+	font-size: 1rem;
+}
+
+/*Akhir NavBAr Bottom*/
+/*Hero/Banner*/
+.hero{
+	width: 100%;
+	background-color: white;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.hero p{
+	background-image: url('asset/banner2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	width: 90%;
+	height: 280px;
+	margin: 2px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 8px;
+	cursor: pointer;
+	font-size: 2em;
+	font-family: 'pacifico', cursive;
+	color: black;
+	text-shadow: 3px 3px 10px white;
+}
+/*Akhir Hero/Banner*/
+/*Kategori*/
+.jud-kat{
+	text-align: center;
+	padding-top: 10px;
+	margin-top: 10px;
+	background-color: salmon;
+}
+
+.list-kat{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: salmon;
+	margin-top: -20px;
+}
+
+.kat-isi{
+	width: 100px;
+	cursor: pointer;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+}
+
+.kat-isi span{
+	margin: 2px;
+	font-size: 1em;
+}
+/*Akhir Kategori*/
+/*For You*/
+h2{
+	background-color: white;
+	margin-top: 10px;
+	padding: 0;
+	padding-top: 10px;
+}
+.container-fy{
+	width: 100%;
+	margin:  -20px auto 10px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: white;
+	padding-top: 15px;
+}
+
+.card{
+	border-radius: 5px;
+	background-color: white;
+	overflow: hidden;
+	width: 200px;
+	height: 350px;
+	margin: 5px;
+	box-shadow: 1px 1px 6px grey;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.heading-card{
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	background-color: #f4f4f4;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.heading-card img{
+	max-height: 200px;
+	max-width: 200px;
+	margin: 5px auto;
+}
+
+.content-card{
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.content-card span.merk{
+	font-size: 0.95em;
+}
+
+.content-card span.harga{
+	font-size: 1.1em;
+	margin-top: 5px;
+}
+
+.content-card span.jmlh{
+	font-size: 0.8em;
+	margin-top: 10px;
+}
+
+button{
+	display: flex;
+	margin: 9px auto;
+	border: none;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	background-color: white;
+	border-radius: none;
+}
+
+button:hover{
+	background-color: grey;
+}
+
+
+/*akhir for you*/
+/*Footer*/
+footer{
+	width: 100%;
+	height: 120px;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+/*akhir footer*/
+
+/*Responsive*/
+@media( min-width: 600px ){
+
+	.logo{
+	margin-left: 10%;
+
+	}
+
+	.hero p{
+		width: 80%;
+		font-size: 3em;
+	}
+	
+	form{
+		width: 40%;
+		margin-right: 10%;
+	}
+
+	.container-fy{
+		max-width: 100%;
+	}
+
+	.card{
+		width: 200px;
+		margin: 10px;
+	}
+
+	.container-setting ul{
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		border: 1px solid black;
+	}
+
+}
