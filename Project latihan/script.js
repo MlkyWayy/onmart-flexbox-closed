@@ -27,9 +27,6 @@ for(let i = 0; i < buy.length; i++){
 
 for(let i = 0; i < 3; i++){
     botNav[i].addEventListener("click",function(){
-    alert("In Progress");
+    alert("Coming Soon");
 });
 }
-
-
-
