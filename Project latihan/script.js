@@ -1,11 +1,17 @@
-const hai = document.querySelector(".hero p");
 const kat = document.querySelectorAll(".kat-isi");
 const buy = document.querySelectorAll("button");
 const botNav = document.querySelectorAll(".container-setting li")
 
-hai.addEventListener("click",function(){
-    alert("Coming Soon");
-});
+// SlideShow
+var counter = 1;
+setInterval(function(){
+  document.getElementById('radio' + counter).checked = true;
+  counter++;
+  if(counter > 4){
+    counter = 1;
+  }
+}, 5000);
+// Akhir SlideShow
 
 for(let i = 0; i < kat.length; i++){
     kat[i].addEventListener("click",function(){
@@ -24,4 +30,6 @@ for(let i = 0; i < 3; i++){
     alert("In Progress");
 });
 }
+
+
 
