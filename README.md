@@ -1,2 +1,0 @@
-Latihan Flexbox
-CLOSED.
